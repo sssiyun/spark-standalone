@@ -27,5 +27,3 @@ Run by spark submit
 docker run --network="host" -v $(pwd):/app custom-spark:latest spark-submit --master spark://localhost:7077 /app/spark_job.py
 ```
 
-testestestset
-
